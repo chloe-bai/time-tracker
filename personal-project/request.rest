@@ -1,0 +1,17 @@
+GET http://localhost:5000/users
+
+###
+
+POST http://localhost:5000/users Content-Type: application/json
+
+{
+"username": "chloe", "password": "1234"
+}
+
+###
+
+POST http://localhost:5000/users/login Content-Type: application/json
+
+{
+"username": "chloe", "password": "1234"
+}
